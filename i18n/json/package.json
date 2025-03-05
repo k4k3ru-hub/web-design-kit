@@ -1,10 +1,10 @@
 {
   "author": "k4k3ru",
   "bugs": {
-    "url": "https://github.com/k4k3ru-hub/web-design-kit/i18n/json/issues"
+    "url": "https://github.com/k4k3ru-hub/web-design-kit/issues"
   },
-  "description": "Localization with JSON files.",
-  "homepage": "https://github.com/k4k3ru-hub/web-design-kit/i18n/json#readme",
+  "description": "Utility for i18n for JSON",
+  "homepage": "https://github.com/k4k3ru-hub/web-design-kit/tree/main/i18n/json#readme",
   "license": "MIT",
   "main": "script.js",
   "name": "@k4k3ru/i18n-json",
@@ -20,5 +20,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
-  "version": "0.1.0"
+  "version": "0.1.1"
 }

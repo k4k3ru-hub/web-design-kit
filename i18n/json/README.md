@@ -10,7 +10,52 @@ npm i @k4k3ru/i18n-json
 
 ## Usage
 
+1. Create localized JSON files
 
+en.json:
+```json
+{
+	"dictionary": {
+		"login": "Login"
+	}
+}
+```
+
+ja.json:
+```json
+{
+    "dictionary": {
+        "login": "ログイン"
+    }
+}
+```
+
+2. Import the package.
+
+```javascript
+import { I18nJson } from 'node_modules/@k4k3ru/i18n-json/script.js';
+```
+
+3. Initialize the class.
+
+```javascript
+const locales = [{
+	langCode: 'en',
+	url: '/i18n/en.json'
+},{
+	langCode: 'ja',
+	url: '/i18n/ja.json'
+}]
+
+const i18nJson = new I18nJson(locales);
+```
+
+4. Get the localized value.
+
+```javascript
+const loginTxt = i18nJson.String('ja', 'dictionary.login');
+// loginTxt = 'ログイン';
+```
 
 
 ## Support me
