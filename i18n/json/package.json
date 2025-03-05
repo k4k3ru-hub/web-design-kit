@@ -1,0 +1,24 @@
+{
+  "author": "k4k3ru",
+  "bugs": {
+    "url": "https://github.com/k4k3ru-hub/web-design-kit/i18n/json/issues"
+  },
+  "description": "Localization with JSON files.",
+  "homepage": "https://github.com/k4k3ru-hub/web-design-kit/i18n/json#readme",
+  "license": "MIT",
+  "main": "script.js",
+  "name": "@k4k3ru/i18n-json",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k4k3ru-hub/web-design-kit.git",
+    "directory": "i18n/json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "version": "0.1.0"
+}
